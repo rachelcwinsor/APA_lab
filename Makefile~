@@ -1,0 +1,8 @@
+CC = gcc
+CFLAGS = -lm
+
+all: 
+	${CC} secuential.c -o  secuential ${CFLAGS}
+clean:
+	rm -f lib secuential
+
